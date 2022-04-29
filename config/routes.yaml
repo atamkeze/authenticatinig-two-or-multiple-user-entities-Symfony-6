@@ -1,6 +1,10 @@
 controllers:
     resource: ../src/Controller/
     type: annotation
+    # login_check:
+    #     path: /login_check
+    # student_login_check:
+    #     path: /admin/login_check
 
 kernel:
     resource: ../src/Kernel.php
